@@ -20,7 +20,7 @@ RUN useradd -u 1000 -m eda
 RUN usermod -a -G $(groups) eda
 USER eda
 WORKDIR /home/eda/
-RUN mkdir files
+RUN mkdir shared
 
 #
 # Clone and compile

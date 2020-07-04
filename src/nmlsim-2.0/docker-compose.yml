@@ -5,4 +5,4 @@ version: '3.8'
 services:
   nmlsim:
     build: .
-    image: ubuntu-nmlsim-2.0
+    image: nmlsim-2
