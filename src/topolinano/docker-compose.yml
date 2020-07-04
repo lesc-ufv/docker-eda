@@ -1,0 +1,8 @@
+#  vim: set expandtab fdm=marker ts=2 sw=2 tw=80 et :
+
+version: '3.8'
+
+services:
+  topolinano:
+    build: .
+    image: topolinano
