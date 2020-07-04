@@ -6,5 +6,3 @@ services:
   nmlsim:
     build: .
     image: ubuntu-nmlsim
-    volumes:
-      - ./files:/home/eda/files
