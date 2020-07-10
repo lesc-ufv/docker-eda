@@ -40,6 +40,8 @@ You just need to [install docker](https://docs.docker.com/get-docker/) on you ma
 
 :warning: Important: Only files written in this folder from inside the container will persist.
 
+---
+
 The only step needed after docker is installed, is to download the script:
 
 ```sh
@@ -47,6 +49,7 @@ wget -O eda.sh https://gitlab.com/formigoni/docker-eda/-/raw/master/eda.sh
 chmod +x eda.sh
 ```
 
+---
 
 ### :wrench: ABC
 
@@ -80,6 +83,8 @@ chmod +x eda.sh
 ./eda.sh nmlsim-2
 ```
 
+---
+
 When the script is ran without arguments, it shows all available options:
 
 ```sh
@@ -92,3 +97,4 @@ List of tools:
   --  nmlsim-2  
   --  topolinano
 ```
+
