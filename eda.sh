@@ -85,7 +85,10 @@ case "${1}" in
   *)
     echo "Usage: \033[32;1m./eda.sh\033[m tool \n\
 List of tools: \n\
--- nmlsim-1 \n\
--- nmlsim-2 \n\
--- topolinano"
+  -- \033[32;1m abc      \033[m \n\
+  -- \033[32;1m cirkit   \033[m \n\
+  -- \033[32;1m fiction  \033[m \n\
+  -- \033[32;1m nmlsim-1 \033[m \n\
+  -- \033[32;1m nmlsim-2 \033[m \n\
+  -- \033[32;1m topolinano"
 esac
