@@ -34,7 +34,11 @@ This repository holds files to compose docker images, of Electronic Design Autom
 
 ### How does it work?
 
-You just need to [install docker](https://docs.docker.com/get-docker/) on you machine and execute the command(s) for the preferred tool(s).
+You just need to [install docker](https://docs.docker.com/get-docker/) on you machine and execute the command(s) for the preferred tool(s). If you prefer, use the official installation script:
+
+```sh
+curl https://get.docker.com/ | sh
+```
 
 :whale: A folder called `shared` will appear in the current working directory, this folder is shared between the container and the local machine. 
 
