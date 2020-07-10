@@ -1,0 +1,20 @@
+#  vim: set expandtab fdm=marker ts=2 sw=2 tw=80 et :
+
+version: '3.8'
+
+services:
+  fiction:
+    build:
+      context: .
+      dockerfile: Fiction
+    image: fiction
+  abc:
+    build:
+      context: .
+      dockerfile: Abc
+    image: abc
+  cirkit:
+    build:
+      context: .
+      dockerfile: Cirkit
+    image: cirkit
